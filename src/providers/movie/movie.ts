@@ -1,12 +1,7 @@
 import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
 
-/*
-  Generated class for the MovieProvider provider.
 
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
 @Injectable()
 export class MovieProvider {
 
@@ -16,11 +11,7 @@ export class MovieProvider {
     console.log('Hello MovieProvider Provider');
   }
 
-<<<<<<< HEAD
-  //Teste de commit excluido
 
-=======
->>>>>>> parent of e6183d7... teste de commit excluido
   getLatestMovies(){
     return this.http.get(this.baseApiPath + "/movie/now_playing?api_key=7e40a7b47945894173a6957518ad79e1");
   }
