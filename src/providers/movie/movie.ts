@@ -10,6 +10,7 @@ export class MovieProvider {
     console.log('Hello MovieProvider Provider');
   }
 
+  //Teste de commit excluido
 
   getLatestMovies(){
     return this.http.get(this.baseApiPath + "/movie/now_playing?api_key=7e40a7b47945894173a6957518ad79e1");
